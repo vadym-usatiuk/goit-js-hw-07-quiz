@@ -1,0 +1,93 @@
+@import "./fonts.css";
+
+body {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.form-wrapper {
+  min-width: 800px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.form-section {
+  margin: 20px 80px;
+  border: 2px solid #333333;
+}
+.questionnaire-headline {
+  padding: 0;
+  margin: 36px;
+  font-family: "Roboto-bold";
+  font-size: 20px;
+  color: #333333;
+}
+
+.question-section {
+  padding: 10px;
+  margin: 0px 36px 36px;
+  border: 2px solid #333333;
+}
+.question-section:last-child {
+  margin-bottom: 40px;
+}
+.q-headline {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: "Roboto-bold";
+  font-size: 15px;
+  color: #333333;
+}
+.ol-style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 36px;
+}
+.li-style {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 36px;
+  font-family: "Roboto-normal";
+  font-size: 12.5px;
+  color: #333333;
+}
+.radio-style {
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+  margin: -3px 0 0 0;
+}
+.sumbit-button {
+  display: block;
+  border: 2px solid #333333;
+  padding: 30px 120px 30px 120px;
+  font-family: "Roboto-bold";
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.output {
+  text-align: center;
+  font-family: "Roboto-bold";
+  font-size: 30px;
+  color: #333333;
+}
